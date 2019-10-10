@@ -48,5 +48,9 @@
   ],
   "engines": {
     "node": "10.16.x"
-  }
+  },
+  "repository": {
+    "url": "github.com/iamlearning1/insta-clone."
+  },
+  "homepage": "https://insta-clone-121.netlify.com/"
 }
