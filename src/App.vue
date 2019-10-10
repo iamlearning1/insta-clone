@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <div id="container">
+    <container>
       <h1>Instagram</h1>
       <p class="description">Sign up to see photos and videos from your friends.</p>
-      <input type="text" placeholder="Mobile Number or Email" class="form-control" />
-      <input type="text" placeholder="Full Name" class="form-control" />
-      <input type="text" placeholder="Username" class="form-control" />
-      <input type="text" placeholder="Password" class="form-control" />
-      <button class="btn btn-primary">Sign up</button>
-      <p class="terms">By signing up, you agree to our Terms , Data Policy and Cookies Policy .</p>
-    </div>
-    <div class="login">
-      <p>
+      <Input placeholder="Mobile Number or Email" />
+      <Input placeholder="Full Name" />
+      <Input placeholder="Username" />
+      <Input placeholder="Password" />
+      <Button>Sign up</Button>
+      <p class="terms">By signing up, you agree to our Terms, Data Policy and Cookies Policy .</p>
+    </container>
+    <container>
+      <p class="login">
         Have an account?
         <a>Log in</a>
       </p>
-    </div>
+    </container>
   </div>
 </template>
 
@@ -34,18 +34,7 @@ export default {
   padding-top: 40px;
 }
 
-#container {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #ccc;
-  background: white;
-  align-items: center;
-  justify-content: center;
-  width: 40%;
-  margin: 0 auto;
-}
-
-#container h1 {
+h1 {
   padding: 20px;
   font-family: "Mansalva";
 }
@@ -60,16 +49,6 @@ export default {
   font-family: inherit;
 }
 
-#container input {
-  width: 18em;
-  margin: 5px;
-}
-
-#container button {
-  margin: 10px;
-  width: 18em;
-}
-
 .terms {
   text-align: center;
   color: #999;
@@ -79,14 +58,6 @@ export default {
 }
 
 .login {
-  border: 1px solid #ccc;
-  background: white;
-  width: 40%;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-
-.login p {
   text-align: center;
   margin: 0;
   padding: 20px;

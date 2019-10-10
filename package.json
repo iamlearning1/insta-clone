@@ -47,6 +47,7 @@
     "last 2 versions"
   ],
   "engines": {
-    "node": "10.16.x"
+    "node": "10.16.1",
+    "yarn": "1.17.3"
   }
 }
